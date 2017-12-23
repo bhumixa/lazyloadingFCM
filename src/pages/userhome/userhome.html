@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Users</h3>
+  <!-- {{users | json}} -->
+  <!-- <ul>
+    <li *ngFor="let user of users">
+        {{user | json}}
+        {{user.$index}}
+    </li>
+  </ul> -->
+  <ion-list *ngFor="let user of users | async">
+    {{user.name}} ({{user.$key}})<br/>
+    <img src="assets/images/index.jpeg" style="width:1000px;height:auto;" >
+  </ion-list>
+
+  <!-- <ion-list  *ngFor="let user of users | async as item ">
+  {{ user }}
+  </ion-list> -->
+ 
+</ion-content>

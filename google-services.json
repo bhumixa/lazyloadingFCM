@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "205625167098",
+    "firebase_url": "https://lazyloadingfcm.firebaseio.com",
+    "project_id": "lazyloadingfcm",
+    "storage_bucket": "lazyloadingfcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205625167098:android:89ce96813617ebfa",
+        "android_client_info": {
+          "package_name": "com.pwh.push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205625167098-2u9jjhs5j1sk7htjjeprmi2fignqp26a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-wEiOrzAVElBKwlpb2YQLWqzjjpzfyY0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
